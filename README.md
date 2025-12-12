@@ -1,6 +1,7 @@
 This repository contains the official codebase and model weights for the study:
 
 **From surface to depth: using deep learning to predict striatal fMRI reward signaling from EEG.**
+
 *Herzog et al., in prep.*
 
 The project adapts BEIRA, a convolutional autoencoder architecture originally proposed by Kovalev et al. (2022, https://github.com/kovalalvi/beira?tab=readme-ov-file), to reconstruct ventral striatum (VS) BOLD activity from simultaneously acquired EEG data recorded during a well-validated two-choice gambling reward task. 
