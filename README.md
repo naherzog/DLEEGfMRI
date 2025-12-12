@@ -10,28 +10,3 @@ Only weight files are uploaded here.
 
 You can find the preprocessed and shaped data here:
 https://osf.io/8sn9h/overview
-
-
-
-/
-├── code/               
-│   ├── main_train.py   
-│   ├── utils/
-|       ├── train_utils.py
-|       ├── torch_dataset.py
-|       ├── inference.py
-|       ├── preproc.py
-|       ├── model_arch/
-|           ├── autoencoder_new_ArturNH.py 
-|
-├── data/
-│   ├── DL_model/ 
-|       ├── best_perm/
-|           ├── weights_for_best_perm.pt 
-|       ├── worst_perm/
-|           ├── weights_for_worst_perm.pt
-|       ├── rand_perm/
-|           ├── weights_for_random_perm.pt
-│   └── linear_model/        
-│
-└── README.md
