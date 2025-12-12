@@ -21,8 +21,13 @@ All preprocessed EEG, fMRI (VS time series), and model-ready data files are host
 🔗 https://osf.io/8sn9h/overview
 
 For starting training procees you need to 
+
     1) Clone repository and create virtual environment
+    
     2) Download data from OSF and move to data folder in your repository.
+    
     3) edit base_directory in code/main_train.py
-    4) insert your wandb key in code/main_train.py
+    
+    4) create wandb key and insert key in code/main_train.py
+    
     5) run main_train.py
