@@ -1,12 +1,24 @@
-EEG-to-fMRI Deep Learning Model for Ventral Striatum Reward Prediction
+This repository contains the official codebase and model weights for the study:
 
-Code & Data Repository for “From surface to depth: using deep learning to predict striatal fMRI reward signaling from EEG” (Herzog et al., in prep)
+Herzog et al., in prep.
+*From surface to depth: using deep learning to predict striatal fMRI reward signaling from EEG.*
 
-The project adapts BEIRA, a convolutional autoencoder model (Kovalev et al., 2022), to reconstruct ventral striatum (VS) BOLD activity from simultaneous EEG during a well-validated two-choice gambling reward task. 
-Unlike subject-specific models, this work trains a single group-level model and evaluates its cross-participant generalization.
+The project adapts BEIRA, a convolutional autoencoder architecture originally proposed by Kovalev et al. (2022, https://github.com/kovalalvi/beira?tab=readme-ov-file), to reconstruct ventral striatum (VS) BOLD activity from simultaneously acquired EEG data recorded during a well-validated two-choice gambling reward task. 
 
-Data files were too big to be uploaded directly here.
-Only weight files are uploaded here.
+✔ Included in this repository:
+- Training and evaluation scripts
+- Model architecture
+- final trained model weights for the best, a random, and the worst permutation folds
 
-You can find the preprocessed and shaped data here:
-https://osf.io/8sn9h/overview
+✔ Available externally:
+Preprocessed datasets were too large to upload to GitHub.
+All preprocessed EEG, fMRI (VS time series), and model-ready data files are hosted on OSF:
+
+🔗 https://osf.io/8sn9h/overview
+
+For starting training procees you need to 
+    1) Clone repository and create virtual environment
+    2) Download data from OSF and move to data folder in your repository.
+    3) edit base_directory in code/main_train.py
+    4) insert your wandb key in code/main_train.py
+    5) run main_train.py
