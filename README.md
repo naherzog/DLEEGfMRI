@@ -13,12 +13,15 @@ The project adapts BEIRA, a convolutional autoencoder architecture originally pr
 
 
 
+
 ✔ Available externally:
 
 Preprocessed datasets were too large to upload to GitHub.
 All preprocessed EEG, fMRI (VS time series), and model-ready data files are hosted on OSF:
 
 🔗 https://osf.io/8sn9h/overview
+
+
 
 For starting training procees you need to 
 
