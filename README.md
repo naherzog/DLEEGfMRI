@@ -11,6 +11,8 @@ The project adapts BEIRA, a convolutional autoencoder architecture originally pr
 - Model architecture
 - final trained model weights for the best, a random, and the worst permutation folds
 
+
+
 ✔ Available externally:
 
 Preprocessed datasets were too large to upload to GitHub.
