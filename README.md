@@ -12,6 +12,7 @@ The project adapts BEIRA, a convolutional autoencoder architecture originally pr
 - final trained model weights for the best, a random, and the worst permutation folds
 
 ✔ Available externally:
+
 Preprocessed datasets were too large to upload to GitHub.
 All preprocessed EEG, fMRI (VS time series), and model-ready data files are hosted on OSF:
 
